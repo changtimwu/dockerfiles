@@ -38,7 +38,7 @@ $ leetcode user -l
 ```
 * list easy and not done
 ```
-leetcode list -eD
+leetcode list -q eD
 ```
 
 * show and edit question 9 in language `python
@@ -50,7 +50,12 @@ leetcode show 9 -gxe -l python
 ```
 leetcode test 9.palindrome-number.py
 ```
-`
+
+* show the most voted python solution of question 70
+``
+leetcode show 70 --solution -l python
+```
+
 * submit
 ```
 leetcode submit 9.palindrome-number.py
